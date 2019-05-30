@@ -1,0 +1,312 @@
+Last login: Thu May 30 17:15:34 on console
+You have mail.
+lab2113m:~ user$ ls
+3D-CoatV3		Desktop			Music
+3D-CoatV4		Documents		Pictures
+3D-CoatV47		Downloads		Public
+AppLinks		Library			another_logfile.log
+Applications		Movies			logfile.log
+lab2113m:~ user$ ls-l
+-bash: ls-l: command not found
+lab2113m:~ user$ cd 
+lab2113m:~ user$ mkdir New Folder
+lab2113m:~ user$ cd Desktop/
+lab2113m:Desktop user$ mkdir New Folder
+lab2113m:Desktop user$ rm New
+rm: New: is a directory
+lab2113m:Desktop user$ rm-r New 
+-bash: rm-r: command not found
+lab2113m:Desktop user$ rmdir New
+lab2113m:Desktop user$ touch index.html Folder
+lab2113m:Desktop user$ cd Folder/ 
+lab2113m:Folder user$ touch masha.html
+lab2113m:Folder user$ cd Desktop/
+-bash: cd: Desktop/: No such file or directory
+lab2113m:Folder user$ history
+    1  cd /Users/user/
+    2  du -sh *
+    3  cd D
+    4  cd Desktop/
+    5  rm -rf *
+    6  cd ..
+    7  du -sh *
+    8  cd Library/
+    9  du -sh *
+   10  rm -rf Caches/*
+   11  du -sh *
+   12  du -sh
+   13  cd ..
+   14  du -sh
+   15  cd ..
+   16  pwd
+   17  du -sh user/
+   18  open -a "Google Chrome" --args --make-default-browser
+   19  open -a "Google Chrome" --args --make-default-browser
+   20  sleep 1
+   21  sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "REPLACE INTO access VALUES('kTCCServiceAccessibility','com.apple.loginwindow',0,1,1,NULL,NULL);" 
+   22  osascript -e 'tell application "System Events" to tell process "CoreServicesUIAgent" to tell window 1 to click button 1' >/dev/null 2>&1
+   23  sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "delete from access where client='com.apple.loginwindow';"
+   24  open -a "Google Chrome" --args --make-default-browser
+   25  sleep 1
+   26  sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "REPLACE INTO access VALUES('kTCCServiceAccessibility','com.apple.loginwindow',0,1,1,NULL,NULL);" 
+   27  osascript -e 'tell application "System Events" to tell process "CoreServicesUIAgent" to tell window 1 to click button 1' >/dev/null 2>&1
+   28  sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "delete from access where client='com.apple.loginwindow';"
+   29  du -sh *
+   30  cd Library/
+   31  du -sh *
+   32  cd Application\ Support/
+   33  du -sh *
+   34  cd Google/
+   35  du -sh *
+   36  rm -rf *
+   37  cd ..
+   38  du -sh *
+   39  cd ..
+   40  du -sh *
+   41  rm -rf Caches/*
+   42  du -sh *
+   43  du -sh
+   44  cd ..
+   45  du -sh *
+   46  cd ..
+   47  du -sh *
+   48  cat /Library/OpenDirectory/Scripts/Script.bash 
+   49  dockutil --remove all
+   50  dockutil --add /Applications/Chrome.app 
+   51  dockutil --add /Applications/launchpad.app
+   52  cd Desktop/
+   53  ls -lah
+   54  cd ..
+   55  ls -lah
+   56  cd user/
+   57  du -sh *
+   58  cd Library/
+   59  du -sh *
+   60  rm -rf Caches/*
+   61  du -sh
+   62  du -sh *
+   63  cd ..
+   64  du -sh
+   65  du -sh *
+   66  ls
+   67  cd desctop
+   68  cd desktop
+   69  mkdir erik
+   70  cd erik
+   71  touch index.html script.js style.css
+   72  open .
+   73  open visual studio
+   74  open Visual Studio Code
+   75  ~/
+   76  open Visual Studio Code
+   77  open Visual Studio Code
+   78  rm -r
+   79  cd desktop/erik
+   80  cd desktop/erik
+   81  cd desktop
+   82  ~/
+   83  cd desktop
+   84  cd desktop
+   85  cd desktop
+   86  cd erik
+   87  rm -r
+   88  open .
+   89  rm -r
+   90  rm -r
+   91  rm -r erik
+   92  rm erik -r 
+   93  ls
+   94  rm -r .
+   95  rm -r erik
+   96  cd ../
+   97  rmdir erik/
+   98  rmdir erik/
+   99  cd erik/
+  100  rm index.html 
+  101  rm -r
+  102  cd erik
+  103  cd desktop
+  104  pws
+  105  pwd
+  106  ls
+  107  rm -rf
+  108  rm -rf
+  109  rm -rf
+  110  rm -rf
+  111  rm -rf
+  112  rm -rf
+  113  rm -rf
+  114  rm -rf
+  115  rm -rf
+  116  rm -rf
+  117  rm -rf
+  118  rm -rf
+  119  rm -rf
+  120  rm -rf
+  121  rm -rf
+  122  ls
+  123  clear
+  124  cd desktop
+  125  git clone https://github.com/erikpetrosyan21/prog-3.git
+  126  cd prog-3/
+  127  touch index.html
+  128  git status
+  129  git add .
+  130  git commit -m "erik"
+  131  git push
+  132  git push
+  133   git config --global user.email "you@example.com"
+  134    git config --global user.name "Your Name"
+  135  git add .
+  136  git commit -m "erik"
+  137  git push -u origin master
+  138  git status
+  139  git add .
+  140  git push
+  141  git push -u origin master
+  142  git status
+  143  git add .
+  144  git commit -m "erik 2"
+  145  git push -u origin master
+  146  git status
+  147  git status
+  148  git status
+  149  git status
+  150  git add .
+  151  git commit -m "erik 2"
+  152  git push -u origin master
+  153  git status
+  154  cd ../
+  155   prog-3
+  156  clear
+  157  cd ~/
+  158  cd Desktop/
+  159  cd prog-3
+  160  git status
+  161  git add .
+  162  git commit -m "hakobna avelacrel"
+  163  git commit -m "hakobna avelacrel"
+  164  git push -u origin master
+  165  git push
+  166  git status
+  167  cd prog-3
+  168  cd Desktop/
+  169  cd prog-3
+  170  git status
+  171  git add .
+  172  git commit -m "arajin das"
+  173  git push -u origin master
+  174  cd Desctop/
+  175  cd desctop
+  176  cd desktop
+  177  cd prog-3
+  178  git clone https://github.com/erikpetrosyan21/prog-3.git
+  179  cd prog-3
+  180  ls
+  181  ls-l
+  182  cd 
+  183  mkdir New Folder
+  184  cd Desktop/
+  185  mkdir New Folder
+  186  rm New
+  187  rm-r New 
+  188  rmdir New
+  189  touch index.html Folder
+  190  cd Folder/ 
+  191  touch masha.html
+  192  cd Desktop/
+  193  history
+lab2113m:Folder user$ pwd
+/Users/user/Desktop/Folder
+lab2113m:Folder user$ cd just user$
+-bash: cd: just: No such file or directory
+lab2113m:Folder user$ just user$
+-bash: just: command not found
+lab2113m:Folder user$ pwd
+/Users/user/Desktop/Folder
+lab2113m:Folder user$ just user$ pwd
+-bash: just: command not found
+lab2113m:Folder user$ cd Desktop/
+-bash: cd: Desktop/: No such file or directory
+lab2113m:Folder user$ cd Desktop/
+-bash: cd: Desktop/: No such file or directory
+lab2113m:Folder user$ git clone https://github.com/khondkaryan2000masha702/Programming-III.git
+Cloning into 'Programming-III'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+lab2113m:Folder user$ cd ~/Desktop
+lab2113m:Desktop user$ git clone https://github.com/khondkaryan2000masha702/Programming-III.git
+Cloning into 'Programming-III'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+lab2113m:Desktop user$ cd Programming-III
+lab2113m:Programming-III user$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+lab2113m:Programming-III user$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+lab2113m:Programming-III user$ Lessongit add Lesson 1
+-bash: Lessongit: command not found
+lab2113m:Programming-III user$ git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+lab2113m:Programming-III user$ git push 
+remote: Permission to khondkaryan2000masha702/Programming-III.git denied to erikpetrosyan21.
+fatal: unable to access 'https://github.com/khondkaryan2000masha702/Programming-III.git/': The requested URL returned error: 403
+lab2113m:Programming-III user$ git push -u origin master 
+remote: Permission to khondkaryan2000masha702/Programming-III.git denied to erikpetrosyan21.
+fatal: unable to access 'https://github.com/khondkaryan2000masha702/Programming-III.git/': The requested URL returned error: 403
+lab2113m:Programming-III user$ claer
+-bash: claer: command not found
+lab2113m:Programming-III user$ clear
+
+lab2113m:Programming-III user$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+lab2113m:Programming-III user$ ls
+README.md
+lab2113m:Programming-III user$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
